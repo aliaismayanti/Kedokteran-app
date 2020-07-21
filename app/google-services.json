@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "160677497904",
+    "firebase_url": "https://kedokteran-ebc7e.firebaseio.com",
+    "project_id": "kedokteran-ebc7e",
+    "storage_bucket": "kedokteran-ebc7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160677497904:android:a7c950052cd5c15637f1f5",
+        "android_client_info": {
+          "package_name": "pnj.uas.alia_ismayanti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160677497904-0jdbitiqkd2rone3d7n4shn1gucs8j0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp4G7y5ROyI52X1NDvli8HCD0r2oRf3Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160677497904-0jdbitiqkd2rone3d7n4shn1gucs8j0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

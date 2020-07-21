@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FC6EF"
+    tools:context="pnj.uas.alia_ismayanti.View.MainActivity">
+
+    <TextView
+        android:id="@+id/headerTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="Aplikasi Data Kedokteran"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="255dp"
+        android:layout_height="133dp"
+        android:layout_above="@+id/button_zone"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="17dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo2" />
+
+    <LinearLayout
+        android:id="@+id/button_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/openUploadActivityBtn"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="Tambah Data"
+            android:textColor="@color/dark" />
+
+        <Button
+            android:id="@+id/openDokterActivityBtn"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Data Dokter"
+            android:textColor="@color/dark" />
+
+        <Button
+            android:id="@+id/btnPickLocation"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Lokasi"
+            android:textColor="@color/dark" />
+
+    </LinearLayout>
+
+</RelativeLayout>
